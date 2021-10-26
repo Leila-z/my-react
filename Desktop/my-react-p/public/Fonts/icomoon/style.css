@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?nlw1db');
+  src:  url('fonts/icomoon.eot?nlw1db#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nlw1db') format('truetype'),
+    url('fonts/icomoon.woff?nlw1db') format('woff'),
+    url('fonts/icomoon.svg?nlw1db#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-famous_favorite_featured_star_super_icon:before {
+  content: "\e908";
+}
+.icon-star_half_alt_icon:before {
+  content: "\e909";
+}
+.icon-dribbble:before {
+  content: "\e900";
+  color: #e1e1e1;
+}
+.icon-youtube:before {
+  content: "\e901";
+  color: #e1e1e1;
+}
+.icon-instagram:before {
+  content: "\e902";
+  color: #e1e1e1;
+}
+.icon-mail:before {
+  content: "\e903";
+  color: #f1f1f1;
+}
+.icon-download:before {
+  content: "\e904";
+  color: #f1f1f1;
+}
+.icon-show:before {
+  content: "\e905";
+  color: #f1f1f1;
+}
+.icon-layers:before {
+  content: "\e906";
+  color: #f1f1f1;
+}
+.icon-short_up:before {
+  content: "\e907";
+  color: #6fc2c5;
+}

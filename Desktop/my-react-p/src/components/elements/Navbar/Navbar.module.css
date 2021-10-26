@@ -1,0 +1,23 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.navbar .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.active {
+  color: #eebf63 !important;
+  font-weight: bold;
+}
+.navbar .menu a {
+  color: #f1f1f1;
+  margin: 20px;
+  font-size: 16px;
+}

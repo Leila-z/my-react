@@ -1,0 +1,65 @@
+.IntroduceMe {
+  margin: 135px 0;
+}
+.box {
+  background: #2f2f2f;
+  border-radius: 45px;
+  padding: 63px 65px;
+  display: flex;
+}
+.image {
+  margin-right: 60px;
+}
+.image img {
+  width: 350px;
+  height: 458px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.header {
+  display: flex;
+  margin-bottom: 70px;
+}
+.des {
+  width: 100%;
+}
+.number,
+.rate {
+  font-size: 72px;
+  font-weight: 600;
+}
+.number {
+  margin-right: 25px;
+}
+.rate {
+  margin-left: 25px;
+}
+.plus {
+  color: #8ed2a9;
+}
+
+.rate div {
+  display: flex;
+  align-items: center;
+}
+.rate .b_plus {
+  margin-right: 12px;
+}
+.text {
+  font-size: 24px;
+  color: #e1e1e1;
+  font-weight: normal;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+.texts {
+  font-size: 24px;
+  color: #e1e1e1;
+  font-weight: normal;
+  line-height: 2;
+  width: 80%;
+}

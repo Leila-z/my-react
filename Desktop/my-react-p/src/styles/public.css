@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("/Fonts/Poppins-Bold.woff2") format("woff2"),
+    url("/Fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Fonts/Poppins-Regular.woff2") format("woff2"),
+    url("/Fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("/Fonts/Poppins-Medium.woff2") format("woff2"),
+    url("/Fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("/Fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("/Fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: "Poppins";
+  background-color: #1c1c1c;
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 84rem;
+  width: calc(100% - var(--margin-container));
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.button__bg,
+.button__none__bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button__bg {
+  background: #cd921e;
+  border-radius: 10px;
+  color: #fff;
+  height: 55px;
+  width: 151px;
+}
+.button__bg span.icon-mail {
+  margin-right: 12px;
+}
+.button__none__bg {
+  border: 2px solid #cd921e;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #fff;
+  width: 184px;
+  height: 55px;
+}
+
+.button__none__bg span.icon-download {
+  margin-right: 15px;
+}
+.undefined.react-stars span {
+  margin: 0 2px;
+}
